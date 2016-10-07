@@ -43,4 +43,6 @@ $ nano 1.txt
 $ git commit -a -m "Commit2 to master"
 $ git tag -a v1.0 -m "Tag testing"
 $ git show v1.0
+$ git commit -a -m "Commit with tag"
+$ git push
 $ 
