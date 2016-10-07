@@ -1,0 +1,3 @@
+[submodule "sub4vcs-adv"]
+	path = sub4vcs-adv
+	url = git@github.com:ogajvoronsky/sub-4-vcs-advanced.git

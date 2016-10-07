@@ -44,5 +44,9 @@ $ git commit -a -m "Commit2 to master"
 $ git tag -a v1.0 -m "Tag testing"
 $ git show v1.0
 $ git commit -a -m "Commit with tag"
-$ git push
-$ 
+$ git push --follow-tags
+
+4. 
+$ git submodule add git@github.com:ogajvoronsky/sub-4-vcs-advanced.git sub4vcs-adv
+$ git commit -a -m "Commit with submodule"
+
