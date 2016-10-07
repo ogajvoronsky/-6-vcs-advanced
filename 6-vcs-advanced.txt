@@ -9,4 +9,12 @@ $ git add *
 $ git commit -m "Initial files"
 $ touch assets/all.js
 $ touch assets/css.js
+$ git commit -m "Added files to assets dir"
+$ remote add 6-vcs-advanced git@github.com:ogajvoronsky/-6-vcs-advanced.git
+$ git push --set-upstream 6-vcs-advanced architecture
+$ git checkout -b master
+$ git merge architecture
+$ git add *
+$ git push --set-upstream 6-vcs-advanced master
+$ git branch -D architecture
 
