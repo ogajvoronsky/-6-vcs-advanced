@@ -34,4 +34,5 @@ $ nano 1.txt
 $ git commit -a -m "Commit to rebase-test"
 $ git checkout master
 $ git merge rebase-test
+$ git branch -D rebase-test
 
