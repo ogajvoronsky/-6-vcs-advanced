@@ -1,0 +1,12 @@
+1. 
+
+$ git checkout -b architecture
+$ mkdir assets
+$ mkdir uploads
+$ touch index.html
+
+$ git add *
+$ git commit -m "Initial files"
+$ touch assets/all.js
+$ touch assets/css.js
+
