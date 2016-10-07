@@ -10,7 +10,7 @@ $ git commit -m "Initial files"
 $ touch assets/all.js
 $ touch assets/css.js
 $ git commit -m "Added files to assets dir"
-$ remote add 6-vcs-advanced git@github.com:ogajvoronsky/-6-vcs-advanced.git
+$ git remote add 6-vcs-advanced git@github.com:ogajvoronsky/-6-vcs-advanced.git
 $ git push --set-upstream 6-vcs-advanced architecture
 $ git checkout -b master
 $ git merge architecture
@@ -47,6 +47,9 @@ $ git commit -a -m "Commit with tag"
 $ git push --follow-tags
 
 4. 
+
 $ git submodule add git@github.com:ogajvoronsky/sub-4-vcs-advanced.git sub4vcs-adv
 $ git commit -a -m "Commit with submodule"
+
+5. 
 
