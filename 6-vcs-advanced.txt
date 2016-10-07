@@ -18,3 +18,15 @@ $ git add *
 $ git push --set-upstream 6-vcs-advanced master
 $ git branch -D architecture
 
+
+2.
+
+$ git checkout -b rebase-test
+$ git checkout master
+$ git commit -m "Commit 1"
+$ touch 1.txt
+$ git add *
+$ git commit -m "Commit 2"
+$ git checkout rebase-test
+$ git rebase master
+$ 
