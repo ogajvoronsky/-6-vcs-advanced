@@ -53,3 +53,34 @@ $ git commit -a -m "Commit with submodule"
 
 5. 
 
+$ git checkout -b gh-pages
+$ rm -rf *
+$ nano index.html
+$ git commit -a -m "Commit gh-pages"
+$ git push --set-upstream origin gh-pages
+$ nano index.html
+$ git commit -a -m "Commit gh-pages edited"
+$ git push
+
+6.
+
+$ git checkout master
+$ nano file.txt
+$ git commit -a -m "Modified file.txt"
+$ git checkout -b branch2
+$ nano file.txt
+$ git add *
+$ git git commit -m "Modified file.txt"
+$ git push --set-upstream origin branch2
+$ git checkout master
+$ nano file.txt
+$ git commit -a -m "Modified file.txt"
+$ git merge branch2
+$ git merge --abort
+$ rm file.txt
+$ git commit -a -m "Delete file.txt"
+$ git merge branch2
+$ git commit -a -m "Modified file.txt - resolve conflict"
+$ git push
+
+
