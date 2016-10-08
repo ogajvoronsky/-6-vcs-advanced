@@ -1,22 +1,10 @@
-ДЗ "VCS Advanced"
-
-Робота з бренчами
-створити бренчу "architecture" з "master", переключитися в неї
-створити структуру в файловій системі (контент файлів довільний):
-assets/
-uploads/
-index.html
-закомітити
-додати файли assets/all.js та assets/css.js
-закомітити, злити в репозиторій
+зробити merge в master
+видалити бренч
+Tag
+зробити декілька комітів в master
+створити мітку
+залити мітку в репозиторійе
+Submodule (advanced level)
+додати любий submodule
 злити зміни в master
 Git Pages (advanced level)
-створити бренч "gh-pages", вести роботу в ньому
-додати файл index.html з любим контентом (не пустий файл)
-коміт & пуш
-перейти по лінку: http://<username>.github.io/<repository-name>
-перевірити чи по лінку синхронізовані зміни з репозиторієм
-зробити зміни, commit & push, перевирити чи з'явилися змін
-
-
-Colflict resolved
