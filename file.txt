@@ -1,0 +1,7 @@
+коміт & пуш
+перейти по лінку: http://<username>.github.io/<repository-name>
+перевірити чи по лінку синхронізовані зміни з репозиторієм
+зробити зміни, commit & push, перевирити чи з'явилися зміни
+додатково читати: https://pages.github.com/
+Conflict (advanced level)
+
